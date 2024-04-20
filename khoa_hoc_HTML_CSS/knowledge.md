@@ -79,4 +79,9 @@
 - _flexbox_ : Áp dụng thuộc tính display: flex vào phần tử mình muốn dàn layout
 - _calc_ : hàm dùng để tính toán, + - \* /, lưu ý phải có khoảng cách giữa các phép tính 
 - _component_ : Mục đích tái sử dụng và có thể sử dụng nhiều nơi
-- _pug_:
+- _column-gap_: Khoảng trống chiều dọc
+- _row-gap_: Khoảng trống chiều ngang
+- _pug_: https://pugjs.org/api/getting-started.html
+- _sass_:
+- _javascript_:
+- _position_: 
