@@ -1,3 +1,4 @@
+include ./pug/mixins
 doctype html
 html(lang="en")
   head
@@ -10,3 +11,7 @@ html(lang="en")
     link(rel="stylesheet" href="./main.css")
   body 
     .tour-list-container
+      .tour-list
+        +tourItem("./images/ho_hoan_kiem.jpg", "From $40", "Hoàn Kiếm là hồ nước ngọt tự nhiên của thành phố Hà Nội", 4.8, 15, "9 hours", 100)
+        +tourItem("./images/chua-mot-cot.jpg", "From $60", "Công trình là một trong những ngôi chùa cổ nhất ở Hà Nội.", 4.5,20,"10 hours",200)
+        +tourItem("./images/pho-di-bo.jpg", "From $70", " Hàng tuần, phố đi bộ Hồ Gươm mở từ 18h thứ Sáu đến hết Chủ nhật", 4.9,30,"10 hours",500)

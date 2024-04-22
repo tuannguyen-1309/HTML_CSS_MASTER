@@ -82,6 +82,10 @@
 - _column-gap_: Khoảng trống chiều dọc
 - _row-gap_: Khoảng trống chiều ngang
 - _pug_: https://pugjs.org/api/getting-started.html
-- _sass_:
+- _mixins_: giống function trong Javascript mục đích  là tái sử dụng code
+- Biến: =, #{biến}
 - _javascript_:
-- _position_: 
+- _position_: có 5 giá trị chính: static, relative, absolute, sticky, fixed
+-_relative_:
+-_absolute_:
+- _sass_:
